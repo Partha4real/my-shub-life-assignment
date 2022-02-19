@@ -1,0 +1,30 @@
+.navbarRoot {
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 40px;
+    z-index: 1;
+    padding: 15px 50px;
+    display: flex;
+    align-items: center;
+}
+.navbarLeft {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 45px;
+    flex: 1;
+}
+.logo {
+    font-size: 33px;
+    font-weight: bolder;
+    color: var(--secondary-color);
+}
+.logo:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.avatarRoot {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+.sizeSmall {
+    min-height: 45px;
+    min-width: 45px;
+    max-width: 45px;
+    max-height: 45px;
+}
+.sizeMedium {
+    min-height: 65px;
+    min-width: 65px;
+    max-width: 65px;
+    max-height: 65px;
+}
+.sizeLarge {
+    min-width: 110px;
+    min-height: 110px;
+    max-width: 110px;
+    max-height: 110px;
+}
+.arrow {
+    font-size: 14px !important;
+    position: absolute;
+    right: -6px;
+    top: 40%;
+    color: var(--secondary-color);
+}
+.arrow:hover {
+    cursor: pointer;
+}

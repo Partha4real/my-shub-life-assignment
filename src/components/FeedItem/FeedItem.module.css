@@ -1,0 +1,71 @@
+.feedItemRoot {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-color-1);
+    padding: 25px;
+    gap: 15px;
+}
+.feedHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.userDetails {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.userName {
+    font-size: 17px;
+}
+.userJobDetail {
+    font-size: 14px;
+    color: var(--primary-text-color);
+    gap: 5px;
+}
+.settingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 65%;
+    margin-top: -10px;
+}
+.settingContainer > svg {
+    font-size: 20px !important;
+    color: var(--primary-text-color);
+    cursor: pointer;
+}
+.settingContainer > p {
+    font-size: 11px;
+    color: var(--primary-text-color);
+}
+.desciption {
+    font-size: 15px;
+    color: black;
+    letter-spacing: 0.3px;
+}
+.feedImage {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.feedFooter {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+.feedFooter span {
+    color: var(--primary-text-color) !important;
+}
+.like {
+    color: red !important;
+}

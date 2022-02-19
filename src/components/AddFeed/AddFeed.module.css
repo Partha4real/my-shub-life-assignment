@@ -1,0 +1,28 @@
+.addFeedRoot {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-color-1);
+}
+.addFeed {
+    display: flex;
+    padding: 25px;
+    border-bottom: 0.5px solid var(--primary-text-color);
+}
+.addFeed > p {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 25px;
+    justify-content: flex-end;
+}
+.send {
+    color: var(--secondary-color);
+    margin-left: auto;
+    cursor: pointer;
+}
